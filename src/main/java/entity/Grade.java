@@ -51,9 +51,7 @@ public class Grade {
      * Returns a new GradeBuilder instance.
      * @return a new GradeBuilder instance.
      */
-    public static GradeBuilder builder() {
-        return new GradeBuilder();
-    }
+    public static GradeBuilder builder() { return new GradeBuilder(); }
 
     /**
      * Represents a builder for creating instances of a Grade.
@@ -78,6 +76,7 @@ public class Grade {
 
         /**
          * Sets the course of the grade.
+         *
          * @param courseInput the course of the grade.
          * @return the GradeBuilder instance.
          */
